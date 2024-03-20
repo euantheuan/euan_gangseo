@@ -2,9 +2,58 @@
 @import url(reset.css);
 @import url(font.css);
 @import url(all.min.css);
+
+@font-face {
+    font-family: 'S-CoreDream-1Thin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-2ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face {
     font-family: 'S-CoreDream-3Light';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-5Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-7ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-8Heavy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-9Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -51,27 +100,112 @@ div#wrapper {
         align-items: start;
     }
     ul.gnb > li > a {
-        margin-right: 40px;
         font-weight: 600;
         font-size: 18px;
-    }
-    ul.gnb > li:last-child > a {
-        margin-right: 0;
+        padding: 10px 15px;
     }
 
 /* depth02 */
+    ul.gnb_sub {
+        font-family: 'S-CoreDream-3Light';
+    }
     ul.gnb_sub > li {
-        margin-bottom: 100px;
         overflow: hidden;
+        background-color: white;
     }
     ul.gnb_sub > li p.title {
         float: left;
         width: 300px;
-        height: 300px;
-        line-height: 300px;
+        height: 330px;
+        line-height: 150px;
         text-align: center;
         background-color: #eeeeee;
+        color: black;
+        font-family: 'S-CoreDream-6Bold';
+        font-size: 22px;
+        position: relative;
     }
     ul.gnb_sub > li div.contents {
         float: left;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        padding: 50px;
+    }
+    ul.gnb_sub > li div.contents > div {
+        margin: 0 30px;
+    }
+    ul.gnb_sub > li div.contents > div > a {
+        padding: 4px 0;
+        font-size: 20px;
+        font-family: 'S-CoreDream-6Bold';
+        border-bottom: 2px #585858 solid;
+        position: relative;
+    }
+    ul.gnb_sub > li div.contents > div:hover > a {
+        border-bottom: 2px solid black;
+        font-family: 'S-CoreDream-7ExtraBold';
+        color: black;
+        position: relative;
+    }
+    ul.gnb_sub > li div.contents > div > a:after {
+        content: '\f054';
+        font-family: "Font Awesome 6 Free";
+        font-weight: 600;
+        font-size: 16px;
+        position: absolute;
+        right: -25px; top: 12px;
+        display: block;
+    }
+    ul.gnb_sub ul.depth03 {
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    ul.gnb_sub ul.depth03 > li {
+        padding: 10px 5px;
+        position: relative;
+    }
+    ul.gnb_sub ul.depth03 > li:before {
+        content: '';
+        background-color: #585858;
+        position: absolute;
+        display: block;
+        left: -5px; top: 50%; transform: translateY(-50%);
+        width: 2px; height: 2px;
+    }
+    ul.gnb_sub ul.depth03 > li > a:hover {
+        border-bottom: 1px solid black;
+        color: black;
+    }
+    ul.gnb_sub > li p.title::after {
+        content: '';
+        background: no-repeat center/contain;
+        width: 130px; height: 130px;
+        display: block;
+        position: absolute;
+        left: 50%; transform: translateX(-50%); bottom: 45px;
+    }
+    ul.gnb_sub > li:first-child p.title::after {
+        background-image: url(../img/header_gnb/gnb-img_0.png);
+    }
+    ul.gnb_sub > li:nth-child(2) p.title::after {
+        background-image: url(../img/header_gnb/gnb-img_1.png);
+    }
+    ul.gnb_sub > li:nth-child(3) p.title::after {
+        background-image: url(../img/header_gnb/gnb-img_2.png);
+    }
+    ul.gnb_sub > li:nth-child(4) p.title::after {
+        background-image: url(../img/header_gnb/gnb-img_3.png);
+    }
+    ul.gnb_sub > li:nth-child(5) p.title::after {
+        background-image: url(../img/header_gnb/gnb-img_4.png);
+    }
+    ul.gnb_sub > li:nth-child(6) p.title::after {
+        background-image: url(../img/header_gnb/gnb-img_5.png);
+    }
+    ul.gnb_sub > li:nth-child(7) p.title::after {
+        background-image: url(../img/header_gnb/gnb-img_6.png);
+    }
+    ul.gnb_sub > li:nth-child(8) p.title::after {
+        background-image: url(../img/header_gnb/gnb-img_7.png);
     }
