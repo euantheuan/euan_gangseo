@@ -99,7 +99,7 @@
      }
 
 /* 이하 공통 */
-     div#inner h2 {
+     div h2 {
           font-family: 'Vitro_core';
           text-align: center;
           color: black;
@@ -331,7 +331,8 @@
      div.main_cont04 div.slide > div.btn_area {
           position: absolute;
           width: 100%;
-          top: 150px;
+          top: 50%;
+          z-index: 999;
      }
      div.main_cont04 div.slide button.prev {
           font-family: 'S-CoreDream-4Regular';
@@ -472,4 +473,55 @@
      }
      div.main_cont04 div.swiper div.img01-2 {
           background: url(../img/main_cont04/01-2.jpg) no-repeat center/cover;
+     }
+
+/* main cont 05 */
+     div.main_cont05 {
+          margin-top: 150px;
+     }
+     div.main_cont05 div#cont05inner {
+          max-width: 1200px;
+          margin: auto 0 auto auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: start;
+     }
+     div.main_cont05 div.title_area {
+          width: 250px;
+     }
+     div.main_cont05 div.title_area h2 {
+          text-align: left;
+     }
+     div.main_cont05 div.title_area ul.tabs {
+          font-family: 'S-CoreDream-3Light';
+          padding: 30px;
+          background-color: #f2f2f2;
+          border: 1px solid #ccc;
+          border-radius: 20px;
+          font-size: 18px;
+     }
+     div.main_cont05 div.title_area ul.tabs li {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px 0;
+          margin: 5px 0;
+          cursor: pointer;
+     }
+     div.main_cont05 div.title_area ul.tabs li.on {
+          background-color: #333;
+          color: white;
+          border-radius: 50px;
+          padding-left: 20px;
+          padding-right: 20px;
+          width: 200px;
+     }
+     div.main_cont05 div.cont05 {
+          width: calc(100% - 300px - 100px);
+          padding-bottom: 50px;
+     }
+     div.main_cont05 div.cont05 div.swiper-slide {
+          height: 400px;
+          background-color: #f2f2f2;
+          border-radius: 20px;
      }

@@ -1165,9 +1165,40 @@
         </div> <!-- .main_cont04 -->
         
         <div class="main_cont05"> <!-- 소식지 -->
-
+            <div id="cont05inner">
+                <div class="title_area">
+                    <h2>소식지</h2>
+                    <ul class="tabs">
+                        <li class="on">전체보기 <i class="fa-solid fa-arrow-right"></i></li>
+                        <li>강서아트리움 <i class="fa-solid fa-minus"></i></li>
+                        <li>허준박물관 <i class="fa-solid fa-minus"></i></li>
+                        <li>겸재정선미술관 <i class="fa-solid fa-minus"></i></li>
+                    </ul>
+                </div>
+                <div class="swiper cont05">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                        <div class="swiper-slide">Slide 10</div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
         </div> <!-- .main_cont05 -->
         
+        <div class="main_cont055"> <!-- 메뉴바 -->
+
+        </div>
+
         <div class="main_cont06"> <!-- 아카이브 -->
 
         </div> <!-- .main_cont06 -->
@@ -1303,6 +1334,15 @@
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
+        });
+        var swiper = new Swiper(".cont05", {
+            loop: true,
+            slidesPerView: 3,
+            spaceBetween: 50,
+            scrollbar: {
+                el: ".swiper-scrollbar",
+                hide: true,
+            }
         });
     </script>
 </body>

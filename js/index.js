@@ -26,3 +26,13 @@ $('div.main_cont04 button.btnSlide03').click(function() {
         left: '-200%'
     }, 400, 'linear');
 });
+
+const arrow = '<i class="fa-solid fa-arrow-right"></i>'
+const minus = '<i class="fa-solid fa-minus"></i>'
+$('div.main_cont05 ul.tabs > li').click(function() {
+    $(this).addClass('on');
+    $(this).children('i').remove();
+    $(this).append(arrow);
+    $(this).siblings().removeClass('on').children('i').remove();
+    $(this).siblings().append(minus);
+})
