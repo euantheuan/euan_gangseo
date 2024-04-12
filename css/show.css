@@ -12,12 +12,14 @@
           font-weight: 400;
           font-size: 35px;
           margin-bottom: 50px;
+          color: black;
      }
      div.inner h3 {
           font-size: 25px;
           font-family: 'S-CoreDream-5Medium';
           font-weight: 400;
           margin-bottom: 15px;
+          color: black;
      }
      ul.yearly {
           border-top: 2px solid #585858;
@@ -35,6 +37,7 @@
      }
      ul.yearly > li > a > span {
           font-family: 'S-CoreDream-6Bold';
+          color: black;
      }
      ul.yearly > li > a > i {
           border: 1px solid #e7e7e7;
@@ -61,6 +64,7 @@
      }
      ul.programs li:first-child p > span {
           font-family: 'S-CoreDream-5Medium';
+          color: black;
      }
      ul.programs li+li {
           border-bottom: 1px solid #e7e7e7;
@@ -85,6 +89,7 @@
           border-radius: 50px;
           font-size: 13px;
           font-family: 'S-CoreDream-5Medium';
+          color: black;
      }
      ul.programs li+li div.text_area div.title_area > span.type {
           border: 1px solid #585858;
@@ -107,12 +112,14 @@
           margin-top: 10px;
           font-size: 30px;
           font-family: 'S-CoreDream-6Bold';
+          color: black;
      }
      ul.programs li+li div.text_area div.desc_area p {
           margin-bottom: 5px;
      }
      ul.programs li+li div.text_area div.desc_area p > span {
           font-family: 'S-CoreDream-5Medium';
+          color: black;
           width: 80px;
           display: inline-block;
      }

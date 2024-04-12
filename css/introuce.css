@@ -1,0 +1,78 @@
+/* 공통 */
+     div.inner {
+          max-width: 1400px;
+          font-family: 'S-CoreDream-3Light';
+          margin: 150px auto 0;
+     }
+
+/* contents */ 
+     div.inner h2 {
+          text-align: center;
+          font-family: 'S-CoreDream-6Bold';
+          color: black;
+          font-weight: 400;
+          font-size: 35px;
+          margin-bottom: 100px;
+     }
+     div.contents {
+          display: flex;
+          justify-content: space-between;
+          align-items: start;
+     }
+     div.contents figure {
+          width: 420px; height: 560px;
+          margin-right: 100px;
+          position: relative;
+     }
+     div.contents figure:before {
+          content: '';
+          height: 120%; width: 100%;
+          background-color: #f2f2f2;
+          display: block;
+          position: absolute;
+          z-index: 5;
+          top: 50%; transform: translateY(-50%);
+     }
+     div.contents figure img {
+          z-index: 10;
+          position: relative;
+          margin-left: 60px;
+     }
+     div.contents div.text_area {
+          width: calc(100% - 420px - 150px);
+          word-break: keep-all;
+          line-height: 1.5;
+     }
+     div.contents div.text_area p.title {
+          font-family: 'S-CoreDream-6Bold';
+          color: black;
+          font-size: 30px;
+          margin-bottom: 20px;
+     }
+     div.contents div.text_area p.subtitle {
+          font-family: 'S-CoreDream-5Medium';
+          color: black;
+          font-size: 25px;
+          margin-bottom: 30px;
+     }
+     div.contents div.text_area span.bar {
+          display: inline-block;
+          margin-bottom: 30px;
+          width: 40px; height: 2px;
+          background-color: #000;
+     }
+     div.contents div.text_area p.text {
+          margin-bottom: 10px;
+     }
+     div.contents div.text_area p.text > span {
+          display: block;
+          font-family: 'S-CoreDream-6Bold';
+          color: black;
+          font-size: 18px;
+     }
+     div.contents div.text_area p.bye {
+          font-family: 'S-CoreDream-6Bold';
+          color: black;
+          font-size: 20px;
+          margin-top: 40px;
+     }
