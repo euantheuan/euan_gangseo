@@ -6,7 +6,6 @@
 div#wrapper {
     min-width: 1320px;
     margin: 0 auto;
-    padding-bottom: 200px;
     position: relative;
 }
 div#inner {
@@ -62,7 +61,7 @@ div#inner {
         font-family: 'S-CoreDream-5Medium';
         font-size: 18px;
         padding: 11px 0 32px;
-        margin: 20px 25px 0 0;
+        margin: 20px 30px 0 0;
     }
     ul.gnb > li:last-child > a {
         margin-right: 0;
@@ -188,4 +187,78 @@ div#inner {
         width: 100vw; height: 100vh;
         background-color: rgba(0, 0, 0, 0.6);
         z-index: 98;
+    }
+
+    
+/* footer */
+    footer {
+        background-color: #333;
+        color: rgba(255, 255, 255, 0.8);
+        font-family: 'S-CoreDream-3Light';
+        margin-top: 150px;
+    }
+    footer div.inner {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    footer div.top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 0;
+        margin-bottom: 40px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    }
+    footer div.top ul.left {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    footer div.top ul.left li {
+        padding-right: 50px;
+        position: relative;
+    }
+    footer div.top ul.left li+li:before {
+        content: '';
+        background-color: rgba(255, 255, 255, 0.4);
+        height: 15px; width: 1px;
+        display: block;
+        position: absolute;
+        top: 50%; transform: translateY(-50%);
+        left: -25px;
+    }
+    footer div.bottom {
+        margin-bottom: 10px;
+    }
+    footer div.bottom div.place {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    footer div.bottom div.place p.title {
+        font-family: 'S-CoreDream-5Medium';
+        width: 130px;
+    }
+    footer div.bottom div.place p.address {
+        width: 490px;
+    }
+    footer div.bottom div.place span {
+        width: 200px;
+        position: relative;
+    }
+    footer div.bottom div.place span:before {
+        content: '';
+        background-color: rgba(255, 255, 255, 0.4);
+        height: 15px; width: 1px;
+        display: block;
+        position: absolute;
+        top: 50%; transform: translateY(-50%);
+        left: -25px;
+    }
+    footer p.copyright {
+        font-family: 'S-CoreDream-2ExtraLight';
+        font-size: 14px;
+        padding-bottom: 40px;
+        color: rgba(255, 255, 255, 0.4)
     }

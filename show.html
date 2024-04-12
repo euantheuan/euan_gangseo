@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>전체일정 | 전시/공연/행사 | 강서구 문화시설 통합운영관리시스템
+     </title>
+     <link rel="stylesheet" href="css/header_footer.css">
+     <link rel="stylesheet" href="css/show.css">
+     <script src="js/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+     <div id="wrapper">
+          <header>
+               <div class="main_header">
+                    <h1>
+                         <a href="index.html" class="logo">
+                              <figure><img src="img/header_gnb/logo_b.png" alt=""></figure>
+                         </a>
+                    </h1>
+                    <ul class="gnb depth01">
+                         <li>
+                              <a href="show.html">공연/전시/행사</a>
+                         </li>
+                         <li>
+                              <a href="learn.html">교육</a>
+                         </li>
+                         <li>
+                              <a href="#">대관</a>
+                         </li>
+                         <li>
+                              <a href="gangseo.html">강서아트리움</a>
+                         </li>
+                         <li>
+                              <a href="heojun.html">허준박물관</a>
+                         </li>
+                         <li>
+                              <a href="gallery.html">겸재정선미술관</a>
+                         </li>
+                         <li>
+                              <a href="culturecenter.html">강서문화원</a>
+                         </li>
+                         <li>
+                              <a href="notice.html">알림마당</a>
+                         </li>
+                    </ul> <!-- gnb -->
+                    <div class="ico">
+                         <a href="#" class="mypage">
+                              <figure>
+                                   <img src="img/header_gnb/header-mem_b.png" alt="">
+                              </figure>
+                         </a>
+                         <a href="#" class="menu">
+                              <figure>
+                                   <img src="img/header_gnb/header-menu_b.png" alt="">
+                              </figure>
+                         </a>
+                    </div>
+               </div>
+               <ul class="gnb_sub">
+                    <li class="depth02">
+                         <p class="title">공연/전시/행사</p>
+                         <div class="contents">
+                              <div><a href="show.html" class="subtitle">전체일정</a></div>
+                              <div>
+                                   <a href="#" class="subtitle">강서아트리움</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">공연</a></li>
+                                   <li><a href="#">전시</a></li>
+                                   </ul>
+                              </div>
+                              <div>
+                                   <a href="#" class="subtitle">허준박물관</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">전시</a></li>
+                                   <li><a href="#">행사</a></li>
+                                   <li><a href="#">상설전</a></li>
+                                   <li><a href="#">약초원</a></li>
+                                   </ul>
+                              </div>
+                              <div>
+                                   <a href="#" class="subtitle">겸재정선미술관</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">전시</a></li>
+                                   <li><a href="#">행사</a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </li> <!-- .depth02 -->
+                    <li class="depth02">
+                         <p class="title"><a href="learn.html">전체교육일정</a></p>
+                         <div class="contents">
+                              <div>
+                                   <a href="#">강서아트리움</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">강좌안내</a></li>
+                                   </ul>
+                              </div>
+                              <div>
+                                   <a href="#">허준박물관</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">교육안내</a></li>
+                                   </ul>
+                              </div>
+                              <div>
+                                   <a href="#">겸재정선미술관</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">교육안내</a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </li> <!-- .depth02 -->
+                    <li class="depth02">
+                         <p class="title">대관</p>
+                         <div class="contents">
+                              <div>
+                                   <a href="#">대관 규정 및 절차</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">강서아트리움</a></li>
+                                   <li><a href="#">허준박물관</a></li>
+                                   <li><a href="#">겸재정선미술관</a></li>
+                                   </ul>
+                              </div>
+                              <div>
+                                   <a href="#">강서아트리움</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">아리홀 공연장</a></li>
+                                   <li><a href="#">갤러리서</a></li>
+                                   <li><a href="#">대관신청</a></li>
+                                   <li><a href="#">대관신청확인</a></li>
+                                   </ul>
+                              </div>
+                              <div>
+                                   <a href="#">허준박물관</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">기획전시실</a></li>
+                                   <li><a href="#">시청각실</a></li>
+                                   <li><a href="#">대관신청</a></li>
+                                   <li><a href="#">대관신청확인</a></li>
+                                   </ul>
+                              </div>
+                              <div>
+                                   <a href="#">겸재정선미술관</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">다목적실 (전시용)</a></li>
+                                   <li><a href="#">다목적실 (세미나용)</a></li>
+                                   <li><a href="#">대관신청</a></li>
+                                   <li><a href="#">대관신청확인</a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </li> <!-- .depth02 -->
+                    <li class="depth02">
+                         <p class="title">강서아트리움</p>
+                         <div class="contents">
+                              <div>
+                                   <a href="gangseo.html">아트리움 소개</a>
+                                   <ul class="depth03">
+                                   <li><a href="gangseo.html">인사말</a></li>
+                                   <li><a href="#">설립목적 및 연혁</a></li>
+                                   <li><a href="#">조직도</a></li>
+                                   </ul>
+                              </div>
+                              <div>
+                                   <a href="#">시설안내</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">층별안내</a></li>
+                                   <li><a href="#">오시는 길</a></li>
+                                   </ul>
+                              </div>
+                              <div>
+                                   <a href="#">문화강좌/특강</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">문화강좌</a></li>
+                                   </ul>
+                              </div>
+                              <div>
+                                   <a href="#">열린마당</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">공지사항</a></li>
+                                   <li><a href="#">보도자료</a></li>
+                                   <li><a href="#">포토자료</a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </li> <!-- .depth02 -->
+                    <li class="depth02">
+                         <p class="title">허준박물관</p>
+                         <div class="contents">
+                              <div>
+                                   <a href="heojun.html">박물관 소개</a>
+                                   <ul class="depth03">
+                                   <li><a href="heojun.html">인사말</a></li>
+                                   <li><a href="#">설립목적 및 연혁</a></li>
+                                   <li><a href="#">조직도</a></li>
+                                   </ul>
+                              </div>
+                              <div>
+                                   <a href="#">의성 허준</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">허준 연표</a></li>
+                                   <li><a href="#">허준 저서</a></li>
+                                   <li><a href="#">동의보감</a></li>
+                                   <li><a href="#">문헌 속 허준</a></li>
+                                   <li><a href="#">허준 관련 논문</a></li>
+                                   <li><a href="#">의가/의서</a></li>
+                                   </ul>
+                              </div>
+                              <div>
+                                   <a href="#">안내</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">관람안내</a></li>
+                                   <li><a href="#">오시는 길</a></li>
+                                   <li><a href="#">단체관람예약</a></li>
+                                   <li><a href="#">문화상품</a></li>
+                                   <li><a href="#">문답모음</a></li>
+                                   </ul>
+                              </div>
+                              <div>
+                                   <a href="#">소장품</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">소장품</a></li>
+                                   <li><a href="#">유물기증</a></li>
+                                   </ul>
+                              </div>
+                              <div>
+                                   <a href="#">열린마당</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">공지사항</a></li>
+                                   <li><a href="#">포토캘러리</a></li>
+                                   <li><a href="#">보도자료</a></li>
+                                   <li><a href="#">관람학습지</a></li>
+                                   <li><a href="#">허준퀴즈퀴즈</a></li>
+                                   <li><a href="#">학생도슨트</a></li>
+                                   <li><a href="#">자유게시판</a></li>
+                                   <li><a href="#">온라인 박물관</a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </li> <!-- .depth02 -->
+                    <li class="depth02">
+                         <p class="title">겸재정선미술관</p>
+                         <div class="contents">
+                              <div>
+                                   <a href="gallery.html">미술관 소개</a>
+                                   <ul class="depth03">
+                                   <li><a href="gallery.html">인사말</a></li>
+                                   <li><a href="#">설립목적 및 연혁</a></li>
+                                   <li><a href="#">조직도</a></li>
+                                   </ul>
+                              </div>
+                              <div>
+                                   <a href="#">겸재 정선</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">연표</a></li>
+                                   <li><a href="#">겸재 정선과 강서구</a></li>
+                                   </ul>
+                              </div>
+                              <div>
+                                   <a href="#">안내</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">관람 안내</a></li>
+                                   <li><a href="#">해설 예약</a></li>
+                                   <li><a href="#">층별 안내</a></li>
+                                   <li><a href="#">오시는 길</a></li>
+                                   <li><a href="#">문화상품</a></li>
+                                   </ul>
+                              </div>
+                              <div>
+                                   <a href="#">전시/소장품</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">온라인 미술관</a></li>
+                                   <li><a href="#">소장품</a></li>
+                                   <li><a href="#">유물 기증</a></li>
+                                   </ul>
+                              </div>
+                              <div>
+                                   <a href="#">열린마당</a>
+                                   <ul class="depth03">
+                                   <li><a href="#">공지사항</a></li>
+                                   <li><a href="#">자료실</a></li>
+                                   <li><a href="#">문의</a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </li> <!-- .depth02 -->
+                    <li class="depth02">
+                         <p class="title">강서문화원</p>
+                         <div class="contents">
+                              <div><a href="culturecenter.html">강서문화원 소개</a></div>
+                              <div><a href="#">연혁 및 구성</a></div>
+                              <div><a href="#">강서문화원 바로가기</a></div>
+                         </div>
+                    </li> <!-- .depth02 -->
+                    <li class="depth02">
+                         <p class="title">알림마당</p>
+                         <div class="contents">
+                              <div><a href="notice.html">공지사항</a></div>
+                              <div><a href="#">보도자료</a></div>
+                         </div>
+                    </li>
+               </ul>
+          <div class="bg"></div>
+          </header>
+
+          <div class="inner">
+               <h2>전체 일정</h2>
+
+               <h3><i class="fa-solid fa-minus"></i> 연간 일정</h3>
+               <ul class="yearly">
+                    <li><a href="#" class="-4"></a></li>
+                    <li><a href="#" class="-3"></a></li>
+                    <li><a href="#" class="-2"></a></li>
+                    <li><a href="#" class="-1"></a></li>
+                    <li><a href="#" class="0">
+                         <i class="fa-solid fa-arrow-left minus"></i>
+                         <span></span>
+                         <i class="fa-solid fa-arrow-right plus"></i>
+                    </a></li>
+                    <li><a href="#" class="1"></a></li>
+                    <li><a href="#" class="2"></a></li> 
+                    <li><a href="#" class="3"></a></li>
+                    <li><a href="#" class="4"></a></li>
+               </ul>
+
+               <ul class="programs">
+                    <li>
+                         <p class="all">전체 <span>22</span>건</p>
+                         <p class="currentpage">현재 페이지 <span>1</span> / 3</p>
+                    </li>
+                    <li>
+                         <div class="img_area"></div>
+                         <div class="text_area">
+                              <div class="title_area">
+                                   <span class="where gallery">겸재정선미술관</span>
+                                   <span class="type">전시</span>
+                                   <p class="title">상상클래스 미니전시회</p>
+                              </div>
+                              <div class="desc_area">
+                                   <p class="where gallery"><span>전시장소</span>겸재정선미술관</p>
+                                   <p class="price"><span>관 람 료</span>무료</p>
+                                   <p class="info"><span>전시안내</span>진경문화체험실 내 <한양진경 지도 만들기> 코너</p>
+                              </div>
+                              <a href="#" class="more">상세보기</a>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="img_area"></div>
+                         <div class="text_area">
+                              <div class="title_area">
+                                   <span class="where heojun">허준박물관</span>
+                                   <span class="type">행사</span>
+                                   <p class="title">허준박물관 어린이날 행사</p>
+                              </div>
+                              <div class="desc_area">
+                                   <p class="where"><span>행사장소</span>허준박물관</p>
+                                   <p class="price"><span>관 람 료</span>무료</p>
+                                   <p class="info"><span>행사안내</span></p>
+                              </div>
+                              <a href="#" class="more">상세보기</a>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="img_area"></div>
+                         <div class="text_area">
+                              <div class="title_area">
+                                   <span class="where gangseo">강서아트리움</span>
+                                   <span class="type">공연</span>
+                                   <p class="title">인문학 토크콘서트 <사주로 읽어보는 나의 운명 사용설명서></p>
+                              </div>
+                              <div class="desc_area">
+                                   <p class="where"><span>공연장소</span>강서아트리움</p>
+                                   <p class="price"><span>관 람 료</span>무료</p>
+                                   <p class="info"><span>공연안내</span>인문학 토크콘서트</p>
+                              </div>
+                              <a href="#" class="more">상세보기</a>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="img_area"></div>
+                         <div class="text_area">
+                              <div class="title_area">
+                                   <span class="where gangseo">강서아트리움</span>
+                                   <span class="type">공연</span>
+                                   <p class="title">조선블루스</p>
+                              </div>
+                              <div class="desc_area">
+                                   <p class="where"><span>공연장소</span>강서아트리움</p>
+                                   <p class="price"><span>관 람 료</span>30,000원</p>
+                                   <p class="info"><span>공연안내</span>전화 및 인터파크 티켓 예매 (1인 4매까지)</p>
+                              </div>
+                              <a href="#" class="more">상세보기</a>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="img_area"></div>
+                         <div class="text_area">
+                              <div class="title_area">
+                                   <span class="where heojun">허준박물관</span>
+                                   <span class="type">전시</span>
+                                   <p class="title">동의보감, 조선에서 세계로</p>
+                              </div>
+                              <div class="desc_area">
+                                   <p class="where"><span>전시장소</span>허준박물관</p>
+                                   <p class="price"><span>관 람 료</span>무료</p>
+                                   <p class="info"><span>전시안내</span>기획전시실</p>
+                              </div>
+                              <a href="#" class="more">상세보기</a>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="img_area"></div>
+                         <div class="text_area">
+                              <div class="title_area">
+                                   <span class="where gangseo">강서아트리움</span>
+                                   <span class="type">전시</span>
+                                   <p class="title">기획전시 <이동공간_내면의 물질 展></p>
+                              </div>
+                              <div class="desc_area">
+                                   <p class="where"><span>전시장소</span>강서아트리움</p>
+                                   <p class="price"><span>관 람 료</span>무료</p>
+                                   <p class="info"><span>전시안내</span>박재연x신나군 2인 초대전</p>
+                              </div>
+                              <a href="#" class="more">상세보기</a>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="img_area"></div>
+                         <div class="text_area">
+                              <div class="title_area">
+                                   <span class="where gangseo">강서아트리움</span>
+                                   <span class="type">공연</span>
+                                   <p class="title">재즈in강서 <어나더시즌></p>
+                              </div>
+                              <div class="desc_area">
+                                   <p class="where"><span>공연장소</span>강서아트리움</p>
+                                   <p class="price"><span>관 람 료</span>무료</p>
+                                   <p class="info"><span>공연안내</span>
+                                        재즈in강서 <어나더시즌></p>
+                              </div>
+                              <a href="#" class="more">상세보기</a>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="img_area"></div>
+                         <div class="text_area">
+                              <div class="title_area">
+                                   <span class="where gangseo">강서아트리움</span>
+                                   <span class="type">공연</span>
+                                   <p class="title">Return to 대학가요제</p>
+                              </div>
+                              <div class="desc_area">
+                                   <p class="where"><span>공연장소</span>강서아트리움</p>
+                                   <p class="price"><span>관 람 료</span>무료</p>
+                                   <p class="info"><span>공연안내</span>포크/트로트</p>
+                              </div>
+                              <a href="#" class="more">상세보기</a>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="img_area"></div>
+                         <div class="text_area">
+                              <div class="title_area">
+                                   <span class="where gangseo">강서아트리움</span>
+                                   <span class="type">전시</span>
+                                   <p class="title">민화-아름다운 색채여행展</p>
+                              </div>
+                              <div class="desc_area">
+                                   <p class="where"><span>전시장소</span>강서아트리움</p>
+                                   <p class="price"><span>관 람 료</span>무료</p>
+                                   <p class="info"><span>전시안내</span>
+                                        제35회 한국민화국제교류협회전</p>
+                              </div>
+                              <a href="#" class="more">상세보기</a>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="img_area"></div>
+                         <div class="text_area">
+                              <div class="title_area">
+                                   <span class="where gallery">겸재정선미술관</span>
+                                   <span class="type">전시</span>
+                                   <p class="title">[기획전] 정군태, <비움과 순응></p>
+                              </div>
+                              <div class="desc_area">
+                                   <p class="where"><span>전시장소</span>겸재정선미술관</p>
+                                   <p class="price"><span>관 람 료</span>1,000원</p>
+                                   <p class="info"><span>전시안내</span>제 1,2 기획전시실</p>
+                              </div>
+                              <a href="#" class="more">상세보기</a>
+                         </div>
+                    </li>
+               </ul>
+
+               <div class="survey">
+
+               </div>
+          </div>
+
+          <footer>
+               <div class="inner">
+                    <div class="top">
+                         <ul class="left">
+                              <li><a href="#">개인정보처리방침</a></li>
+                              <li><a href="#">회원약관</a></li>
+                              <li><a href="#">이메일수집거부</a></li>
+                              <li><a href="#">저작권 보호정책</a></li>
+                         </ul>
+                         <div class="dropdown">
+                              <p class="title">유관기관 바로가기</p>
+                         </div>
+                    </div>
+                    <div class="bottom">
+                         <div class="place">
+                              <p class="title">강서아트리움</p>
+                              <p class="address">: 우) 07719 서울시 강서구 가로공원로 195 (화곡동 379-68)</p>
+                              <span class="phone">TEL. 02-2692-4266</span>
+                              <span class="fax">FAX. 02-2607-0601</span>
+                         </div>
+                         <div class="place">
+                              <p class="title">허준박물관</p>
+                              <p class="address">: 우) 07525 서울특별시 강서구 허준로 87(가양동 26-5) </p>
+                              <span class="phone">TEL. 02-3661-8686</span>
+                              <span class="fax">FAX. 02-3661-8639</span>
+                         </div>
+                         <div class="place">
+                              <p class="title">겸재정선미술관</p>
+                              <p class="address">: 우) 07522 서울특별시 강서구 양천로47길 36(가양동 243-1) </p>
+                              <span class="phone">TEL. 02-2659-2206</span>
+                              <span class="fax">FAX. 02-2659-1185</span>
+                         </div>
+                    </div>
+                    <p class="copyright">COPYRIGHT © 2023 GANGSEO-GU. ALL RIGHTS RESERVED.</p>
+               </div>
+          </footer>
+     </div>
+
+     <script src="js/show.js"></script>
+</body>
+</html>
