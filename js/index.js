@@ -10,6 +10,10 @@ $('div.main_cont03 ul.tab_title > li').click(function() {
     $('div.main_cont03 div.swiper_area > div.swiper').eq($(this).index()).addClass('on');
     $('div.main_cont03 div.swiper_area > div.swiper').eq($(this).index()).siblings().removeClass('on')
 });
+$('div.main_cont06 ul.tab_title > li').click(function() {
+    $(this).addClass('on');
+    $(this).siblings().removeClass('on');
+});
 
 $('div.main_cont04 button.btnSlide01').click(function() {
     $('div.main_cont04 div.slide_position').animate({

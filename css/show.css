@@ -2,7 +2,7 @@
      div.inner {
           max-width: 1400px;
           font-family: 'S-CoreDream-3Light';
-          margin: 150px auto 0;
+          margin: 0 auto;
      }
 
 /* top */ 
@@ -11,8 +11,9 @@
           font-family: 'S-CoreDream-6Bold';
           font-weight: 400;
           font-size: 35px;
-          margin-bottom: 50px;
           color: black;
+          margin-bottom: 20px;
+          margin-top: 70px;
      }
      div.inner h3 {
           font-size: 25px;
@@ -48,6 +49,51 @@
           align-items: center;
           font-size: 22px;
           margin: 0 20px;
+     }
+
+/* btn_area */
+     div.btn_area {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 50px;
+     }
+     div.btn_area div.left {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+     }
+     div.btn_area div.left > button {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 15px 20px;
+          margin-right: 25px;
+     }
+     div.btn_area div.left > button:first-child {
+          background: #f2f2f2;
+          border: 1px solid #ccc;
+     }
+     div.btn_area div.left > button:last-child {
+          background: #333;
+          color: white;
+     }
+     div.btn_area div.left > button > i {
+          margin-right: 15px;
+     }
+     div.btn_area div.right select,
+     div.btn_area div.right input {
+          border: 1px solid #ccc;
+          background: none;
+          padding: 15px 20px;
+          margin-right: 15px;
+     }
+     div.btn_area div.right button {
+          height: 50px; width: 50px;
+          border: none;
+          background-color: #333;
+          color: white;
+          font-size: 20px;
      }
 
 /* programs */

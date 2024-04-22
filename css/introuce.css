@@ -2,7 +2,7 @@
      div.inner {
           max-width: 1400px;
           font-family: 'S-CoreDream-3Light';
-          margin: 150px auto 0;
+          margin: 0 auto;
      }
 
 /* contents */ 
@@ -13,6 +13,7 @@
           font-weight: 400;
           font-size: 35px;
           margin-bottom: 100px;
+          margin-top: 70px;
      }
      div.contents {
           display: flex;

@@ -1,0 +1,180 @@
+div.inner h2 {
+    text-align: center;
+    font-family: 'S-CoreDream-6Bold';
+    font-weight: 400;
+    font-size: 35px;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+/* btn_area */
+    div.btn_area {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+    div.btn_area div.left {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    div.btn_area div.left > button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 40px;
+        margin-right: 25px;
+        background: #f2f2f2;
+        border: 1px solid #ccc;
+    }
+    div.btn_area div.left > button.on {
+        background-color: #333;
+        border: none;
+        color: white;
+    }
+    div.btn_area div.left > button > i {
+        margin-right: 15px;
+    }
+    div.btn_area div.right select,
+    div.btn_area div.right input {
+        border: 1px solid #ccc;
+        background: none;
+        padding: 15px 20px;
+        margin-right: 15px;
+    }
+    div.btn_area div.right button {
+        height: 50px; width: 50px;
+        border: none;
+        background-color: #333;
+        color: white;
+        font-size: 20px;
+    }
+
+/* list */
+    div.list div.top {
+        margin: 50px auto 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px
+    }
+    div.list div.top p > span {
+        font-family: 'S-CoreDream-5Medium';
+        color: black;
+    }
+
+/* table */
+    table {
+        text-align: center;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    table thead {
+        border-top: 2px solid #585858;
+        border-bottom: 1px solid #585858;
+        background-color: #f2f2f2;
+        font-family: 'S-CoreDream-6Bold';
+        color: black;
+    }
+    table td {
+        padding: 20px;
+    }
+    div.grid > div {
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+        box-sizing: border-box;
+    }
+    div.grid > div > div {
+        height: 100%;
+        box-sizing: border-box;
+    }
+    div.grid > div > div:first-child {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        text-align: left;
+        width: 50%;
+        padding: 20px;
+    }
+    div.grid > div > div+div {
+        border-left: 1px solid #ccc;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    div.grid > div > div:first-child div.img_area {
+        width: 110px; height: 110px;
+        margin-right: 30px;
+    }
+    div.grid > div > div:first-child div.text_area {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-direction: column;
+    }
+    div.grid > div > div:first-child div.text_area span {
+        padding: 6px 15px;
+        border-radius: 50px;
+        color: white;
+        font-family: 'S-CoreDream-5Medium';
+        font-size: 14px;
+    }
+    div.grid > div > div:first-child div.text_area span.heojun {
+        background-color: #ce4767;
+    }
+    div.grid > div > div:first-child div.text_area span.gangseo {
+        background-color: #47a4cf;
+    }
+    div.grid > div > div:first-child div.text_area p.title {
+        font-family: 'S-CoreDream-6Bold';
+        color: black;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    div.grid > div > div:first-child div.text_area a {
+        padding: 6px 15px;
+        background-color: #333;
+        border-radius: 50px;
+        color: white;
+        font-family: 'S-CoreDream-5Medium';
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    div.grid > div > div:last-child > span {
+        padding: 6px 20px;
+        border-radius: 50px;
+        font-family: 'S-CoreDream-5Medium';
+        font-size: 14px;
+    }
+    div.grid > div > div:last-child > span.ongoing {
+        background-color: #333;
+        color: white;
+    }
+    div.grid > div > div:last-child > span.pending {
+        border: 1px solid #333;
+    }
+    div.grid > div > div:last-child > span.done {
+        border: 1px solid #ccc;
+        background-color: #f2f2f2;
+    }
+
+    div.grid > div:nth-child(1) > div:first-child div.img_area {
+        background: url(../img/learn/1.jpg) no-repeat center/cover;
+    }
+    div.grid > div:nth-child(2) > div:first-child div.img_area {
+        background: url(../img/learn/2.jpg) no-repeat center/cover;
+    }
+    div.grid > div:nth-child(3) > div:first-child div.img_area {
+        background: url(../img/learn/3.jpg) no-repeat center/cover;
+    }
+    div.grid > div:nth-child(4) > div:first-child div.img_area {
+        background: url(../img/learn/4.jpg) no-repeat center/cover;
+    }

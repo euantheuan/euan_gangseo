@@ -1,6 +1,5 @@
 /* main_cont01 */
      div.main_cont01 {
-          margin-top: 88px;
           height: 700px;
           border-radius: 0 0 300px 0;
           overflow: hidden;
@@ -540,7 +539,7 @@
 
 /* main cont 055 */
      div.main_cont055 {
-          margin-top: 100px;
+          margin-top: 220px;
      }
      div.main_cont055 div#cont055inner {
           max-width: 1000px;
@@ -581,7 +580,7 @@
 
 /* main cont 06 */
      div.main_cont06 {
-          padding-top: 85px;
+          margin-top: 120px;
           background-color: #eeeeee;
      }
      div.main_cont06 ul.tab_title {
